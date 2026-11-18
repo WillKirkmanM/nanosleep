@@ -1,0 +1,8 @@
+[package]
+name = "nanosleep"
+version = "0.1.0"
+edition = "2024"
+description = "The nanosleep Command Pauses for a Requested Duration Through Linux, Resuming Interrupted Sleeps and Optionally Reporting Actual Elapsed Time"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
